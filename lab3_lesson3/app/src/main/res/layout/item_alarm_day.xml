@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ivType"
+        android:layout_marginTop="19dp"
+        android:layout_alignTop="@+id/tvHour"
+        android:tint="#F47B00"
+        android:src="@mipmap/set_alarm"
+        android:layout_width="22dp"
+        android:layout_height="22dp" />
+    <TextView
+        android:id="@+id/tvHour"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"
+        android:textColor="#262626"
+        android:text="07:00"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="40dp"
+        android:layout_toRightOf="@+id/ivType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvCountdown"
+        android:layout_marginLeft="16dp"
+        android:layout_alignTop="@+id/tvHour"
+        android:paddingTop="22dp"
+        android:textColor="#B5B5B5"
+        android:text="In 16 hours"
+        android:textStyle="bold"
+        android:textSize="9dp"
+        android:layout_toRightOf="@+id/tvHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvNumsOfAlarm"
+        android:layout_below="@+id/tvHour"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="12dp"
+        android:textStyle="bold"
+        android:textColor="#7D7D7D"
+        android:text="EVERY DAY"
+        android:textSize="11dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Switch
+        android:id="@+id/swOnOff"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tvHour"
+        android:layout_marginTop="22dp"
+        android:checked="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

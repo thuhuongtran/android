@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="18dp"
+        android:id="@+id/ivListNote"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@mipmap/writing"
+        android:tint="#097D06" />
+
+    <TextView
+        android:id="@+id/tvNote"
+        android:layout_toRightOf="@+id/ivListNote"
+        android:layout_alignTop="@+id/ivListNote"
+        android:layout_alignBottom="@+id/ivListNote"
+        android:paddingLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to shopping"
+        android:textColor="#848484"
+        android:textSize="13dp" />
+</RelativeLayout>

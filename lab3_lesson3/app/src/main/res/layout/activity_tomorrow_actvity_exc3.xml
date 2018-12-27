@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TomorrowActvityExc3">
+    <RelativeLayout
+        android:background="#F47B00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ivArrow"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="#FDF1E6"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_toRightOf="@+id/ivArrow"
+            android:layout_alignBottom="@+id/ivArrow"
+            android:text="Tomorrow"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#FDF1E6"
+            android:paddingLeft="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ivType"
+            android:layout_marginTop="19dp"
+            android:tint="#FDF1E6"
+            android:src="@mipmap/set_alarm"
+            android:background="@drawable/ic_circle"
+            android:paddingLeft="11dp"
+            android:paddingTop="11dp"
+            android:paddingRight="11dp"
+            android:paddingBottom="11dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/tvHour"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="8dp"
+            android:textColor="#262626"
+            android:text="07:00"
+            android:textSize="40dp"
+            android:layout_toRightOf="@+id/ivType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvCountdown"
+            android:layout_marginLeft="8dp"
+            android:paddingTop="32dp"
+            android:textColor="#B5B5B5"
+            android:text="In 16 hours"
+            android:textStyle="bold"
+            android:textSize="9dp"
+            android:layout_toRightOf="@+id/tvHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvNumsOfAlarm"
+            android:layout_below="@+id/tvHour"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="12dp"
+            android:textStyle="bold"
+            android:textColor="#7D7D7D"
+            android:text="EVERY DAY"
+            android:textSize="11dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Switch
+            android:id="@+id/swOnOff"
+            android:layout_toLeftOf="@id/ivMore"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="26dp"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/ivMore"
+            android:tint="#676767"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/swOnOff"
+            android:src="@drawable/ic_more_vert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#CBCBCB"/>
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivCalendar"
+                android:layout_marginTop="19dp"
+                android:tint="#F47B00"
+                android:src="@mipmap/calendar"
+                android:layout_width="16dp"
+                android:layout_height="16dp" />
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_marginLeft="16dp"
+                android:layout_alignTop="@+id/ivCalendar"
+                android:textColor="#838383"
+                android:text="08:30 - 09:30: Meeting"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:layout_toRightOf="@+id/ivCalendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvRemind"
+                android:layout_below="@+id/tvTime"
+                android:layout_alignLeft="@+id/tvTime"
+                android:layout_marginBottom="12dp"
+                android:textColor="#7D7D7D"
+                android:text="1 other event tomorrow after 07:00"
+                android:textSize="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#EEEEEE"/>
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivRain"
+            android:layout_marginTop="19dp"
+            android:tint="#F47B00"
+            android:src="@mipmap/rain"
+            android:layout_width="16dp"
+            android:layout_height="16dp" />
+        <TextView
+            android:id="@+id/tvDay"
+            android:layout_marginLeft="16dp"
+            android:layout_alignTop="@+id/ivRain"
+            android:textColor="#838383"
+            android:text="Tomorrow"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:layout_toRightOf="@+id/ivRain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvDegreeAbove"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tvDay"
+            android:textColor="#838383"
+            android:text="10&#xb0;"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvRemind2"
+            android:layout_below="@+id/tvDay"
+            android:layout_alignLeft="@+id/tvDay"
+            android:layout_marginBottom="12dp"
+            android:textColor="#7D7D7D"
+            android:text="Breezy starting in the afternoon and drizzle starting in the afternoon, continuing until evening."
+            android:textSize="13dp"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvDegreeBelow"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tvRemind2"
+            android:textColor="#838383"
+            android:text="13&#xb0;"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivMoon"
+            android:layout_marginTop="19dp"
+            android:tint="#F47B00"
+            android:src="@mipmap/moon_phase_outline"
+            android:layout_width="16dp"
+            android:layout_height="16dp" />
+        <TextView
+            android:id="@+id/tvTimeDay"
+            android:layout_marginLeft="16dp"
+            android:layout_alignTop="@+id/ivMoon"
+            android:textColor="#838383"
+            android:text="At 07:00"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:layout_toRightOf="@+id/ivMoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvRemind3"
+            android:layout_below="@+id/tvTimeDay"
+            android:layout_alignLeft="@+id/tvTimeDay"
+            android:layout_marginBottom="12dp"
+            android:textColor="#7D7D7D"
+            android:text="Clear"
+            android:textSize="13dp"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvDegree3"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tvTimeDay"
+            android:layout_margin="5dp"
+            android:textColor="#838383"
+            android:text="10&#xb0;"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

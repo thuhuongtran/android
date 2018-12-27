@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    tools:context=".Excercise2Activity">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="0dp"
+        card_view:cardBackgroundColor="#BFBDBC"
+        card_view:contentPaddingBottom="1dp">
+        <RelativeLayout
+            android:background="#2792D9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/ivMenu"
+                android:src="@drawable/ic_menu"
+                android:tint="#EAF3F6"
+                android:layout_margin="10dp"
+                android:layout_width="26dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:textSize="23dp"
+                android:layout_alignTop="@+id/ivMenu"
+                android:layout_toRightOf="@+id/ivMenu"
+                android:textColor="#EAF3F6"
+                android:text="Sign Up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@mipmap/user"
+            android:tint="#7F7A77" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:hint="Full Name"
+            android:backgroundTint="#E3E2E1"
+            android:textColorHint="#4F4A45"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@mipmap/auricular_phone_symbol_in_a_circle"
+            android:tint="#7F7A77" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:hint="Phone Number"
+            android:backgroundTint="#E3E2E1"
+            android:textColorHint="#4F4A45"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@mipmap/opened_email_envelope"
+            android:tint="#7F7A77" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:backgroundTint="#E3E2E1"
+            android:hint="E-mail Address"
+            android:textColorHint="#4F4A45"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@mipmap/category"
+            android:tint="#7F7A77" />
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:hint="I am"
+            android:backgroundTint="#E3E2E1"
+            android:textColorHint="#4F4A45"
+            android:textSize="12dp" />
+
+        <RadioGroup
+            android:checkedButton="@id/rbTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:button="@drawable/radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Farmer"
+                android:paddingLeft="16dp"
+                android:textColor="#4F4A45"
+                android:textSize="12dp" />
+
+            <RadioButton
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:paddingLeft="16dp"
+                android:button="@drawable/radio_button"
+                android:id="@+id/rbTeacher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teacher / Professor"
+                android:textColor="#4F4A45"
+                android:textSize="12dp" />
+
+            <RadioButton
+                android:paddingLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:button="@drawable/radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student"
+                android:textColor="#4F4A45"
+                android:textSize="12dp" />
+
+            <RadioButton
+                android:paddingLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:button="@drawable/radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dealer / Distribution"
+                android:textColor="#4F4A45"
+                android:textSize="12dp" />
+        </RadioGroup>
+    </LinearLayout>
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="3dp"
+        card_view:cardBackgroundColor="#726B76"
+        card_view:contentPaddingBottom="1dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_background"
+            android:text="Sign Up, It's Free"
+            android:textAllCaps="false"
+            android:textColor="#E4F0E0"
+            android:textSize="12dp" />
+    </android.support.v7.widget.CardView>
+</LinearLayout>

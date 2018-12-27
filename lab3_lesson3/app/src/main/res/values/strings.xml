@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab3_lesson3</string>
+    <string name="exc1">Material Light</string>
+    <string name="exc2">Sign up</string>
+    <string name="alarm_exc3">Alarms</string>
+    <string name="tomorrow_exc3">Tomorrow</string>
+</resources>
