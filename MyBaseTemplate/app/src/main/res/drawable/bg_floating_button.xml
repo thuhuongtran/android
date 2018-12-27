@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <size android:width="@dimen/floating_button" android:height="@dimen/floating_button" />
+            <solid android:color="@color/colorOnSelect"></solid>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <size android:width="@dimen/floating_button" android:height="@dimen/floating_button" />
+            <solid android:color="@color/colorButton"></solid>
+        </shape>
+    </item>
+</selector>

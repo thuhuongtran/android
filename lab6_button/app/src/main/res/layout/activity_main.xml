@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvMainHeader"
+        android:text="Messenger"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:id="@+id/vLine"
+        android:layout_below="@+id/tvMainHeader"
+        android:background="#e77979"
+        android:layout_width="match_parent"
+        android:layout_height="0.9dp"/>
+    <LinearLayout
+        android:id="@+id/llTabs"
+        android:layout_below="@id/vLine"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Friends"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Messages"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rlFriendTab"
+        android:layout_below="@+id/llTabs"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/lvContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+        <ImageView
+            android:id="@+id/ivAddContact"
+            android:src="@drawable/ic_person_add"
+            android:tint="#ffffff"
+            android:background="@drawable/circle_background"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:padding="12dp"
+            android:layout_margin="16dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rlMessageTab"
+        android:layout_below="@id/llTabs"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+</RelativeLayout>

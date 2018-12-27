@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SendSMSEmailActivity">
+    <LinearLayout
+        android:id="@+id/llHeaderSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivBackHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="#ffffff" />
+
+        <TextView
+            android:id="@+id/tvHeaderTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:padding="16dp"
+            android:text="Send SMS"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="0dp"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="Send"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llChooseFriends"
+        android:layout_below="@+id/llHeaderSend"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvChooseFriend"
+            android:textColor="@color/textAbove"
+            android:layout_gravity="center"
+            android:textSize="12.5sp"
+            android:text="Choose Friend:"
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:background="@drawable/bg_rectagle_border"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:id="@+id/spListFriend"
+                android:backgroundTint="@color/msgMe"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_weight="0.8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/etContentMsg"
+        android:layout_below="@+id/llChooseFriends"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_rectagle_border"
+        android:lines="5"
+        android:hint="Content go here"
+        android:textColorHint="#a7a3a3"
+        android:textSize="12.5sp"
+        android:gravity="top"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DD4B39</color>
+    <color name="colorPrimaryDark">#C0332F</color>
+    <color name="colorAccent">#FF9C0F</color>
+    <color name="textAbove">#404040</color>
+    <color name="textBelow">#969595</color>
+    <color name="imageIcon">#f9a933</color>
+    <color name="msgMe">#d63e25</color>
+    <color name="msgFriend">#DADADA</color>
+    <color name="textWhite">#ffffff</color>
+
+</resources>
