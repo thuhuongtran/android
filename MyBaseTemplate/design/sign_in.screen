@@ -1,0 +1,91 @@
+﻿<?Infragistics.Models format="xaml" version="17"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          Id="2a8ed9e4-65d2-4138-bec7-ef10dcf1651a">
+    <Page.Content>
+        <Content Width="480" Height="800" Background="White" Id="c375fd0c-36b8-493a-bf72-deaf28d6a411">
+            <Layer Layout="Stretch" Id="543d7954-8124-4e8b-97dd-54b3c267ff46" Panel.Layout="Stretch" />
+        </Content>
+    </Page.Content>
+    <Page.Scenes>
+        <Scene Title="Start" Created="12/28/2018 07:30:24" Id="c73b3e19-f638-468f-b9b9-7a4f6e11a81a">
+            <KeyFrame Id="2a90a0e2-52f7-4119-8078-7c4725e58a79">
+                <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
+                    <Add.Item>
+                        <Label Text="Sign in" Foreground="#FF282828" FontSize="18" FontStyle="Normal" Id="e9a839b6-4a08-46c0-b132-abc285ac1cb5" Panel.Bounds="191,104,61{5,2147483647},28{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
+                    <Add.Item>
+                        <TextBox Foreground="#FF282828" FontSize="13" FontStyle="Normal" Id="28925ea6-bb22-48f0-8935-36ba3080449b" Panel.Bounds="54,176,376{5,2147483647},5*{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
+                    <Add.Item>
+                        <Label Text="somwone@mail.com" Foreground="#FF282828" FontSize="20" FontStyle="Normal" Id="fc30480a-8767-452c-896f-939ec08896f4" Panel.Bounds="64,176,0*{5,2147483647},0*{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
+                    <Add.Item>
+                        <TextBox Foreground="#FF282828" FontSize="13" FontStyle="Normal" Id="09a883e6-c589-4de7-8d0b-47ffa9ce48c5" Panel.Bounds="58,241,368{5,2147483647},0*{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
+                    <Add.Item>
+                        <Label Text="........" Foreground="#FF282828" FontSize="28" FontStyle="Normal" Id="e6e9c157-f77b-46d0-bbbf-f8d91c9de770" Panel.Bounds="64,226,0*{5,2147483647},0*{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
+                    <Add.Item>
+                        <Button Text="Sign in" Background="#FF349C42" Foreground="White" FontSize="19" FontStyle="Normal" Id="7104b327-4197-431f-baa3-09f1e0b21ea1" Name="welcome_screen" Panel.Bounds="54,304,368{5,2147483647},50{5,2147483647}">
+                            <Button.Click>
+                                <CommandNavigate Screen="/home_screen.screen" Created="12/28/2018 07:41:58" />
+                            </Button.Click>
+                        </Button>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
+                    <Add.Item>
+                        <Link Text="FORGOT PASSWORD?" Foreground="#FF0066CC" FontSize="18" FontStyle="Normal|Underline" Id="0ed3b85d-c0c0-467e-9977-e3816cd460ec" Name="forgot_password" Panel.Bounds="137,393,0*{5,2147483647},0*{5,2147483647}">
+                            <Link.Click>
+                                <CommandNavigate Screen="/forgot_password.screen" Created="12/29/2018 09:27:03" />
+                            </Link.Click>
+                        </Link>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
+                    <Add.Item>
+                        <Label Text="Or" Foreground="#FF282828" FontSize="17" FontStyle="Normal" Id="877a1ce1-0144-461e-bd4d-fb1cd325bd1c" Panel.Bounds="216,440,0*{5,2147483647},0*{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
+                    <Add.Item>
+                        <Button Text="CONTINUE WITH GOOGLE" Foreground="#FF282828" FontSize="17" FontStyle="Normal" Id="73a63a18-7106-4457-8bf7-e496f9edd290" Panel.Bounds="54,486,376{5,2147483647},47{5,2147483647}">
+                            <Button.Click>
+                                <CommandNext SceneId="3ef4eba2-8c83-43dc-bb80-09c8a832acc0" Created="12/28/2018 07:39:38" />
+                            </Button.Click>
+                        </Button>
+                    </Add.Item>
+                </Add>
+                <Set Property="Content.Width" Value="480" Target="c375fd0c-36b8-493a-bf72-deaf28d6a411" />
+                <Set Property="Content.Height" Value="800" Target="c375fd0c-36b8-493a-bf72-deaf28d6a411" />
+            </KeyFrame>
+        </Scene>
+        <Scene Title="Tapped/Clicked CONTINUE WITH GOOGLE" StateGroup="c73b3e19-f638-468f-b9b9-7a4f6e11a81a" ParentScene="c73b3e19-f638-468f-b9b9-7a4f6e11a81a" Created="12/28/2018 07:39:38" Id="3ef4eba2-8c83-43dc-bb80-09c8a832acc0">
+            <KeyFrame Id="316249cd-23a1-4453-a4a9-a760dca2610e">
+                <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
+                    <Add.Item>
+                        <Rectangle Background="White" Id="333592d2-b408-476e-8aa5-3e67b5bc52b0" Panel.Bounds="438,342,100{5,2147483647},100{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Control.Click" Target="7104b327-4197-431f-baa3-09f1e0b21ea1">
+                    <Add.Item>
+                        <CommandNext SceneId="37d6a2b2-f84b-4b71-ae0d-d74d1d6f675d" Created="12/28/2018 07:40:37" />
+                    </Add.Item>
+                </Add>
+            </KeyFrame>
+        </Scene>
+        <Scene Title="Tapped/Clicked welcome_screen" StateGroup="3ef4eba2-8c83-43dc-bb80-09c8a832acc0" ParentScene="3ef4eba2-8c83-43dc-bb80-09c8a832acc0" Created="12/28/2018 07:40:37" Id="37d6a2b2-f84b-4b71-ae0d-d74d1d6f675d">
+            <KeyFrame Id="0137d4d7-390d-447c-90cb-e4aa680ee7d1" />
+        </Scene>
+    </Page.Scenes>
+</Page>

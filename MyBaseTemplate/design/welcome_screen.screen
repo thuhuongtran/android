@@ -1,0 +1,84 @@
+﻿<?Infragistics.Models format="xaml" version="17"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          Id="95de7e81-41c9-45b3-b8e0-f4a2817e35be">
+    <Page.Content>
+        <Content Width="480" Height="800" Background="White" Id="5ad40bc2-dfc7-4be6-9fea-f3c685928329">
+            <Layer Layout="Stretch" Id="7fdd5af6-8879-4cf8-be22-c654cc7f90ac" Panel.Layout="Stretch" />
+        </Content>
+    </Page.Content>
+    <Page.Scenes>
+        <Scene Title="Start" Created="12/28/2018 07:41:58" Id="ef6c2b21-eec3-493a-9699-2ff6abab2de9">
+            <KeyFrame Id="4630d379-57bb-4b13-9ba5-685173de7b80">
+                <Add Property="Panel.Children" Target="7fdd5af6-8879-4cf8-be22-c654cc7f90ac">
+                    <Add.Item>
+                        <Title Text="Welcome to TRIPS!" Foreground="#FF282828" FontSize="34" FontStyle="Normal" Id="a42d27a4-06d4-4a71-80c7-66a4ee209919" Panel.Bounds="91,90,0*{5,2147483647},0*{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="7fdd5af6-8879-4cf8-be22-c654cc7f90ac">
+                    <Add.Item>
+                        <Image SourcePath="assets/man.png" Id="dac4d7e4-b858-4d3d-8dbf-366a805f0ba8" Panel.Bounds="162,239,115{5,2147483647},103{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="7fdd5af6-8879-4cf8-be22-c654cc7f90ac">
+                    <Add.Item>
+                        <Image SourcePath="assets/photo-camera.png" Id="982b4f22-c0a6-4628-a752-8b4d6f1dec30" Panel.Bounds="261,323,41{5,2147483647},37{5,2147483647}">
+                            <Image.Click>
+                                <CommandNext SceneId="81b8a9b4-6bb7-42c8-accc-0e42a28ffe2c" Created="12/29/2018 09:08:47" />
+                            </Image.Click>
+                        </Image>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="7fdd5af6-8879-4cf8-be22-c654cc7f90ac">
+                    <Add.Item>
+                        <Label Text="thuhuong" Foreground="#FF282828" FontSize="19" FontStyle="Normal|Bold" Id="7738bb83-24f6-4e6b-8874-c32b544e435b" Panel.Bounds="183,372,0*{5,2147483647},0*{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="7fdd5af6-8879-4cf8-be22-c654cc7f90ac">
+                    <Add.Item>
+                        <Label Text="write about your own experience" Foreground="#FF282828" FontSize="17" FontStyle="Normal" Id="e4553474-fd52-4556-b41e-81ecfb6af586" Panel.Bounds="99,567,0*{5,2147483647},0*{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="7fdd5af6-8879-4cf8-be22-c654cc7f90ac">
+                    <Add.Item>
+                        <Label Text="Record yur adcentures with beautiful&#xD; photos, time lines ans more." Align="Center" Foreground="#FF282828" FontSize="17" FontStyle="Normal" Id="b3fa2bd4-8282-400d-9e14-7283b9b02182" Panel.Bounds="92,601,0*{5,2147483647},0*{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="7fdd5af6-8879-4cf8-be22-c654cc7f90ac">
+                    <Add.Item>
+                        <Button Text="GET STARTED" Background="#FF8D8D8D" Foreground="White" FontSize="18" FontStyle="Normal" Id="fd8786b8-bba8-4ce1-b43a-96e9fb765557" Panel.Bounds="30,685,416{5,2147483647},57{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Set Property="Content.Width" Value="480" Target="5ad40bc2-dfc7-4be6-9fea-f3c685928329" />
+                <Set Property="Content.Height" Value="800" Target="5ad40bc2-dfc7-4be6-9fea-f3c685928329" />
+            </KeyFrame>
+        </Scene>
+        <Scene Title="Tapped/Clicked photo-camera" StateGroup="ef6c2b21-eec3-493a-9699-2ff6abab2de9" ParentScene="ef6c2b21-eec3-493a-9699-2ff6abab2de9" Created="12/29/2018 09:08:47" Id="81b8a9b4-6bb7-42c8-accc-0e42a28ffe2c">
+            <KeyFrame Id="1e9b2573-3710-45ad-bb90-52821691cfd6">
+                <Add Property="Panel.Children" Target="7fdd5af6-8879-4cf8-be22-c654cc7f90ac">
+                    <Add.Item>
+                        <ContainerBox Background="White" Id="cbd40cce-0025-4640-bd61-5f581da3a72e" Panel.Bounds="270,152,300{5,2147483647},350{5,2147483647}">
+                            <Container Layout="Stretch" ClipToContainer="True" Id="ac86cd05-d784-4b83-8cb0-dec55e975edd">
+                                <Button Text="ADD PHOTO " Foreground="#FF282828" FontSize="18" FontStyle="Normal" Id="0d197638-f8d0-43fa-af6f-502caa9e6655" Panel.Bounds="60,78,184{5,2147483647},62{5,2147483647}" />
+                            </Container>
+                        </ContainerBox>
+                    </Add.Item>
+                </Add>
+                <Add Property="Control.Click" Target="fd8786b8-bba8-4ce1-b43a-96e9fb765557">
+                    <Add.Item>
+                        <CommandNext SceneId="076db9d0-840d-4fd2-bef8-8fbdbe9429f6" Created="12/29/2018 09:10:26" />
+                    </Add.Item>
+                </Add>
+                <Set Property="Button.Background" Value="#FF349C42" Target="fd8786b8-bba8-4ce1-b43a-96e9fb765557" />
+            </KeyFrame>
+        </Scene>
+        <Scene Title="Tapped/Clicked GET STARTED" StateGroup="81b8a9b4-6bb7-42c8-accc-0e42a28ffe2c" ParentScene="81b8a9b4-6bb7-42c8-accc-0e42a28ffe2c" Created="12/29/2018 09:10:26" Id="076db9d0-840d-4fd2-bef8-8fbdbe9429f6">
+            <KeyFrame Id="1c97d806-e54c-49b2-9f24-ae59860685f0">
+                <Add Property="Control.DoubleClick" Target="fd8786b8-bba8-4ce1-b43a-96e9fb765557">
+                    <Add.Item>
+                        <CommandNavigate Screen="/home_screen.screen" Created="12/29/2018 09:14:45" />
+                    </Add.Item>
+                </Add>
+            </KeyFrame>
+        </Scene>
+    </Page.Scenes>
+</Page>

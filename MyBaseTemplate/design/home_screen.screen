@@ -1,0 +1,193 @@
+﻿<?Infragistics.Models format="xaml" version="17"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          Id="5eec81d8-0b31-40dd-8a80-ac8e88139a80">
+    <Page.Content>
+        <Content Width="480" Height="800" Background="White" Id="5778106d-e5c8-45c0-aea1-d5ce5ae09c08">
+            <Layer Layout="Stretch" Id="e5077ebc-0f82-4edf-9fad-336146063173" Panel.Layout="Stretch" />
+        </Content>
+    </Page.Content>
+    <Page.Scenes>
+        <Scene Title="Start" Created="12/29/2018 09:14:45" Id="760ed86d-0edf-43ae-853f-126212318c6d">
+            <KeyFrame Id="b1f9f2dc-2a82-4698-9c64-51ea15c77115">
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <ContainerBox Background="#FF349C42" Id="ccfad2a0-f403-4e4a-84e7-a2d4685b5311" Panel.Bounds="0,0,480{5,2147483647},76{5,2147483647}">
+                            <Container Layout="Stretch" ClipToContainer="True" Id="9cca1674-dd60-4c58-8118-dd7fdaa634e0">
+                                <Image SourcePath="assets/menu.png" Id="943538e0-d684-4885-9dd0-6d3070b7ae3f" Name="home_screen_floating_menu" Panel.Bounds="20,12,32{5,2147483647},43{5,2147483647}" />
+                                <Title Text="My Trips" Foreground="White" FontSize="34" FontStyle="Normal" Id="c14bad6b-aa1f-42b4-ac0d-b10d473cd039" Panel.Bounds="77,8,5*{5,2147483647},5*{5,2147483647}" />
+                            </Container>
+                        </ContainerBox>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <Image SourcePath="assets/menu (1).png" Id="544eb0c1-383e-457c-b44c-e898b8d7cd65" Name="home_screen_action" Panel.Bounds="408,24,46{5,2147483647},37{5,2147483647}">
+                            <Image.Click>
+                                <CommandNext SceneId="8b064c31-5ac3-4c89-8cb1-ec647c23dec8" Created="12/29/2018 10:14:12" />
+                            </Image.Click>
+                        </Image>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <ContainerBox Background="White" Id="71c0aa58-532e-4097-83a2-28c33a4103c7" Name="trip_detail" Panel.Bounds="8,83,221{5,2147483647},271{5,2147483647}">
+                            <ContainerBox.Click>
+                                <CommandNavigate Screen="/trip_detail.screen" Created="12/29/2018 10:46:03" />
+                            </ContainerBox.Click>
+                            <Container Layout="Stretch" ClipToContainer="True" Id="73897c8d-0106-451d-b963-deb60e650720">
+                                <Title Text="1st time in osaka" Foreground="#FF282828" FontSize="18" FontStyle="Normal|Bold" Id="1f83af98-7da3-41f4-b7ab-8d6e03bc538d" Panel.Bounds="8,151,0*{5,2147483647},0*{5,2147483647}" />
+                                <Label Text="Joined funny! So sad" Foreground="#FF555555" FontSize="16" FontStyle="Normal" Id="b3299c77-9a02-4c1d-8078-8171dbaf2e08" Panel.Bounds="12,182,5*{5,2147483647},5*{5,2147483647}" />
+                                <Label Text="2018-12-20~2018-12-30" Foreground="#FF555555" FontSize="16" FontStyle="Normal|Bold" Id="dcb5a90a-fba9-4b31-a9a2-222b74c22315" Panel.Bounds="8,227,0*,0*" />
+                            </Container>
+                        </ContainerBox>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <Image SourcePath="assets/osaka.jpg" Id="4d9e448e-af24-4b4b-8bce-5c811c4e0499" Panel.Bounds="10,83,219{5,2147483647},131{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <Image SourcePath="assets/menu (2).png" Id="a01bed46-7140-43c0-bf49-74a2f7478491" Name="popup_delete" Panel.Bounds="202,311,27{5,2147483647},37{5,2147483647}">
+                            <Image.Click>
+                                <CommandNext SceneId="eb263e44-b9de-4f14-9b5f-4903fc6ed7d9" Created="12/29/2018 10:41:12" />
+                            </Image.Click>
+                        </Image>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <ContainerBox Background="White" Id="dc0e3217-58d1-4163-8220-0b8d4fae75d0" Panel.Bounds="248,87,221{5,2147483647},322{5,2147483647}">
+                            <Container Layout="Stretch" ClipToContainer="True" Id="b689c7cd-3e3f-4790-83b0-7ff3ebdfbaf6" Panel.Bounds="0,0,219*,269*">
+                                <Title Text="1st time in osaka" Foreground="#FF282828" FontSize="18" FontStyle="Normal|Bold" Id="765248d4-9bc1-4d4f-acb1-625833f5dd48" Panel.Bounds="8,151,153*,25*" />
+                                <Label Text="Joined funny! So sad&#xD;Joined funny! So sad&#xD;Joined funny! " Foreground="#FF555555" FontSize="16" FontStyle="Normal" Id="8613cd3a-e64a-4eff-8bd0-f1632bbb4c95" Panel.Bounds="12,182,152*,22*" />
+                                <Label Text="2018-12-20~2018-12-30" Foreground="#FF555555" FontSize="16" FontStyle="Normal|Bold" Id="08b151c0-7758-4b67-b2c4-5e1bf6358fa5" Panel.Bounds="5,270,0*,0*" />
+                                <Image SourcePath="assets/menu (2).png" Id="c93a2755-28a9-4837-a67c-08a319de239b" Panel.Bounds="192,273,27{5,2147483647},37{5,2147483647}" />
+                            </Container>
+                        </ContainerBox>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <Image SourcePath="assets/osaka.jpg" Id="7394a17e-c454-4cfe-a9e0-3d7635b733d8" Panel.Bounds="250,87,219{5,2147483647},131{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <ContainerBox Background="White" Id="fb069863-7bd3-4404-829c-3149e46f36bc" Panel.Bounds="10,373,221{5,2147483647},271{5,2147483647}">
+                            <Container Layout="Stretch" ClipToContainer="True" Id="3dc57501-5563-4de6-ba58-f37c0317ab5a" Panel.Bounds="0,0,219*,269*">
+                                <Title Text="1st time in osaka" Foreground="#FF282828" FontSize="18" FontStyle="Normal|Bold" Id="5b7a11d4-c518-4508-aec4-fa97dd8dc168" Panel.Bounds="8,151,153*,25*" />
+                                <Label Text="Joined funny! So sad" Foreground="#FF555555" FontSize="16" FontStyle="Normal" Id="67e82609-ce3d-4c07-aece-800e9f25864c" Panel.Bounds="12,182,152*,22*" />
+                                <Label Text="2018-12-20~2018-12-30" Foreground="#FF555555" FontSize="16" FontStyle="Normal|Bold" Id="779c4ac4-c749-43e4-8e6f-73e0ae0d6b30" Panel.Bounds="8,227,176*,22*" />
+                            </Container>
+                        </ContainerBox>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <Image SourcePath="assets/osaka.jpg" Id="a9ec1b72-9c7f-485a-95cc-fc441d155856" Panel.Bounds="12,373,219{5,2147483647},131{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <Image SourcePath="assets/menu (2).png" Id="b171d637-53a4-462f-93c9-00c44dfbd180" Panel.Bounds="204,601,27{5,2147483647},37{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <ContainerBox Background="White" Id="2a362493-5eb6-4a20-9461-e5abbb18393e" Panel.Bounds="249,422,221{5,2147483647},322{5,2147483647}">
+                            <Container Layout="Stretch" ClipToContainer="True" Id="1e127dc5-d319-45d2-9170-85cd36aa6dfb" Panel.Bounds="0,0,219*,320*">
+                                <Title Text="1st time in osaka" Foreground="#FF282828" FontSize="18" FontStyle="Normal|Bold" Id="9c1d691d-98eb-4016-b382-5a1e574872be" Panel.Bounds="8,151,153*,25*" />
+                                <Label Text="Joined funny! So sad&#xD;Joined funny! So sad&#xD;Joined funny! " Foreground="#FF555555" FontSize="16" FontStyle="Normal" Id="3d908628-7d12-45b4-9daa-f98e84b0249d" Panel.Bounds="12,182,152*,66*" />
+                                <Label Text="2018-12-20~2018-12-30" Foreground="#FF555555" FontSize="16" FontStyle="Normal|Bold" Id="8c99dfb5-a19e-4d54-b90e-767150d56886" Panel.Bounds="5,270,176*,22*" />
+                                <Image SourcePath="assets/menu (2).png" Id="8168482a-5958-4ae2-a38d-c1145dd573b1" Panel.Bounds="192,273,27{5,2147483647},37{5,2147483647}" />
+                            </Container>
+                        </ContainerBox>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <Image SourcePath="assets/osaka.jpg" Id="84669716-61d7-4e6d-9e83-5f6b54b07bfc" Panel.Bounds="251,422,219{5,2147483647},131{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <Image SourcePath="assets/add-button-inside-black-circle.png" Id="89f73a97-7995-4575-b848-81de42dc494f" Panel.Bounds="379,699,82{5,2147483647},82{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Set Property="Content.Width" Value="480" Target="5778106d-e5c8-45c0-aea1-d5ce5ae09c08" />
+                <Set Property="Content.Height" Value="800" Target="5778106d-e5c8-45c0-aea1-d5ce5ae09c08" />
+            </KeyFrame>
+        </Scene>
+        <Scene Title="Tapped/Clicked home_screen_action" StateGroup="760ed86d-0edf-43ae-853f-126212318c6d" ParentScene="760ed86d-0edf-43ae-853f-126212318c6d" Created="12/29/2018 10:14:12" Id="8b064c31-5ac3-4c89-8cb1-ec647c23dec8">
+            <KeyFrame Id="df664076-a492-43e7-b7a3-5c0f3c777f00">
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <ContainerBox Background="White" Id="089bb363-887a-41f9-b645-114b70ea6fd5" Panel.Bounds="180,64,300{5,2147483647},350{5,2147483647}">
+                            <Container Layout="Stretch" ClipToContainer="True" Id="7277059e-32ca-4f27-af88-41fbbc99e7de">
+                                <Label Text="Text Label or Paragraph" Foreground="#FF282828" FontSize="13" FontStyle="Normal" Id="ba0bc74e-fc46-4877-9942-d9c54a72eb28" Panel.Bounds="7,4,5*{5,2147483647},5*{5,2147483647}" />
+                                <Button Text="Button" Foreground="#FF282828" FontSize="13" FontStyle="Normal" Id="a3c94352-6590-452b-9f87-e67db035081f" Panel.Bounds="19,71,280{5,2147483647},54{5,2147483647}" />
+                                <Button Text="Button" Foreground="#FF282828" FontSize="13" FontStyle="Normal" Id="96274b8c-4c0a-4737-b63b-14316b641a3e" Panel.Bounds="2,71,296{5,2147483647},54{5,2147483647}" />
+                            </Container>
+                        </ContainerBox>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <List Direction="Vertical" Id="561d1ef7-35ce-405c-8db2-baf729e91474" Panel.Bounds="182,64,298{5,2147483647},342{5,2147483647}">
+                            <List.Template>
+                                <Template Id="0a222470-0d01-4d2d-a172-fba883a27946">
+                                    <Template.Content>
+                                        <ListItemContent Background="Transparent" Thickness="0" Padding="3" Id="ba6dab38-e852-4624-bcca-fd16c2a917b2" Panel.Layout="Stretch">
+                                            <Container Layout="Stretch" ClipToContainer="True" Id="6f570c5f-de80-4e2a-8dfd-82aa7d0f73a1">
+                                                <Label Text="A sample item." Foreground="#FF282828" FontSize="13" FontStyle="Normal" Id="2befdcc3-a2e1-4130-91ef-2c203e8ff84e" />
+                                            </Container>
+                                        </ListItemContent>
+                                    </Template.Content>
+                                </Template>
+                            </List.Template>
+                            <ListItem Id="3576adb3-9d28-42f8-9591-4d6b2685b599">
+                                <SharedPart Id="49af3117-363e-4a37-950f-c08d5b81ffe4">
+                                    <SharedPart.Customizations>
+                                        <Set Property="Panel.Bounds" Value="0,0,0*,50" Target="ba6dab38-e852-4624-bcca-fd16c2a917b2" />
+                                    </SharedPart.Customizations>
+                                </SharedPart>
+                            </ListItem>
+                            <ListItem Id="886ee705-fdc2-4b21-95d5-f885b9f1956c">
+                                <SharedPart Id="c23f7c31-008c-453a-88c3-800ddbbb10e9">
+                                    <SharedPart.Customizations>
+                                        <Set Property="Panel.Bounds" Value="0,0,0*,50" Target="ba6dab38-e852-4624-bcca-fd16c2a917b2" />
+                                    </SharedPart.Customizations>
+                                </SharedPart>
+                            </ListItem>
+                        </List>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <Button Text="Sort a to z" Foreground="#FF282828" FontSize="19" FontStyle="Normal" Id="b19ca49d-f3f0-4643-b94d-03762ec18409" Panel.Bounds="172,60,308{5,2147483647},64{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <Button Text="Something" Foreground="#FF282828" FontSize="19" FontStyle="Normal" Id="bdf4dd98-bda3-4d9a-a5ed-5b1ddc5b3664" Panel.Bounds="172,126,308{5,2147483647},64{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+            </KeyFrame>
+        </Scene>
+        <Scene Title="Tapped/Clicked popup_delete" StateGroup="760ed86d-0edf-43ae-853f-126212318c6d" ParentScene="760ed86d-0edf-43ae-853f-126212318c6d" Created="12/29/2018 10:41:12" Id="eb263e44-b9de-4f14-9b5f-4903fc6ed7d9">
+            <KeyFrame Id="331d0272-dcff-4782-9ea3-83a122989203">
+                <Add Property="Panel.Children" Target="e5077ebc-0f82-4edf-9fad-336146063173">
+                    <Add.Item>
+                        <ContainerBox Color="#FF1A4E21" Background="White" Id="7843f25c-e77a-4c73-8f6b-fd67f515ac4c" Panel.Bounds="224,308,144{5,2147483647},56{5,2147483647}">
+                            <Container Layout="Stretch" ClipToContainer="True" Id="27ce5fba-1378-464a-8b96-012f4f683d24">
+                                <Label Text="Delete" Foreground="#FF282828" FontSize="18" FontStyle="Normal" Id="8c7d06fd-6c46-45a9-83c4-8cea7d2230d3" Panel.Bounds="32,14,0*{5,2147483647},0*{5,2147483647}" />
+                            </Container>
+                        </ContainerBox>
+                    </Add.Item>
+                </Add>
+            </KeyFrame>
+        </Scene>
+    </Page.Scenes>
+</Page>
