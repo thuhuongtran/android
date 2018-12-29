@@ -11,17 +11,7 @@
             <KeyFrame Id="2a90a0e2-52f7-4119-8078-7c4725e58a79">
                 <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
                     <Add.Item>
-                        <Label Text="Sign in" Foreground="#FF282828" FontSize="18" FontStyle="Normal" Id="e9a839b6-4a08-46c0-b132-abc285ac1cb5" Panel.Bounds="191,104,61{5,2147483647},28{5,2147483647}" />
-                    </Add.Item>
-                </Add>
-                <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
-                    <Add.Item>
-                        <TextBox Foreground="#FF282828" FontSize="13" FontStyle="Normal" Id="28925ea6-bb22-48f0-8935-36ba3080449b" Panel.Bounds="54,176,376{5,2147483647},5*{5,2147483647}" />
-                    </Add.Item>
-                </Add>
-                <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
-                    <Add.Item>
-                        <Label Text="somwone@mail.com" Foreground="#FF282828" FontSize="20" FontStyle="Normal" Id="fc30480a-8767-452c-896f-939ec08896f4" Panel.Bounds="64,176,0*{5,2147483647},0*{5,2147483647}" />
+                        <Label Text="Sign in" Foreground="#FF282828" FontSize="18" FontStyle="Normal" Id="e9a839b6-4a08-46c0-b132-abc285ac1cb5" Panel.Bounds="193,125,61{5,2147483647},28{5,2147483647}" />
                     </Add.Item>
                 </Add>
                 <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
@@ -64,6 +54,16 @@
                                 <CommandNext SceneId="3ef4eba2-8c83-43dc-bb80-09c8a832acc0" Created="12/28/2018 07:39:38" />
                             </Button.Click>
                         </Button>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
+                    <Add.Item>
+                        <Label Text="Enter password for" Foreground="#FF282828" FontSize="17" FontStyle="Normal" Id="968c115f-7a89-4686-b199-8075bf9a367d" Panel.Bounds="64,185,0*{5,2147483647},0*{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="543d7954-8124-4e8b-97dd-54b3c267ff46">
+                    <Add.Item>
+                        <Label Text="someone@mail.com" Foreground="#FFCB6009" FontSize="17" FontStyle="Normal" Id="cf721953-86ff-4edb-a0a5-3dc08de68621" Panel.Bounds="225,185,0*{5,2147483647},0*{5,2147483647}" />
                     </Add.Item>
                 </Add>
                 <Set Property="Content.Width" Value="480" Target="c375fd0c-36b8-493a-bf72-deaf28d6a411" />

@@ -26,7 +26,7 @@
                 </Add>
                 <Add Property="Panel.Children" Target="60864bc7-64aa-4b71-85b4-9b3a644ccf34">
                     <Add.Item>
-                        <Label Text="Sign In or Sign up for free" Foreground="#FF282828" FontSize="15" FontStyle="Normal" Id="a1f3a75b-ffc5-462e-ad8d-4d369aec8c8c" Panel.Bounds="146,475,0*{5,2147483647},0*{5,2147483647}" />
+                        <Label Text="Sign In" Foreground="#FF282828" FontSize="15" FontStyle="Normal" Id="a1f3a75b-ffc5-462e-ad8d-4d369aec8c8c" Panel.Bounds="146,476,0*{5,2147483647},0*{5,2147483647}" />
                     </Add.Item>
                 </Add>
                 <Add Property="Panel.Children" Target="60864bc7-64aa-4b71-85b4-9b3a644ccf34">
@@ -41,7 +41,7 @@
                 </Add>
                 <Add Property="Panel.Children" Target="60864bc7-64aa-4b71-85b4-9b3a644ccf34">
                     <Add.Item>
-                        <Button Text="CONTINUE" Background="#FF349C42" Foreground="White" FontSize="16" FontStyle="Normal" Id="f6de0a15-4cd3-4575-8595-6f8393b77647" Name="login" Panel.Bounds="42,564,406{5,2147483647},37{5,2147483647}">
+                        <Button Text="CONTINUE" Background="#FF349C42" Foreground="White" FontSize="16" FontStyle="Normal" Id="f6de0a15-4cd3-4575-8595-6f8393b77647" Name="login" Panel.Bounds="42,599,406{5,2147483647},37{5,2147483647}">
                             <Button.Click>
                                 <CommandNavigate Screen="/sign_in.screen" Created="12/28/2018 07:30:24" />
                             </Button.Click>
@@ -50,12 +50,26 @@
                 </Add>
                 <Add Property="Panel.Children" Target="60864bc7-64aa-4b71-85b4-9b3a644ccf34">
                     <Add.Item>
-                        <Label Text="Or" Foreground="#FF282828" FontSize="14" FontStyle="Normal" Id="6c648424-8e0f-4eda-8d04-737e5e28e585" Panel.Bounds="231,625,0*{5,2147483647},0*{5,2147483647}" />
+                        <Label Text="Or" Foreground="#FF282828" FontSize="14" FontStyle="Normal" Id="6c648424-8e0f-4eda-8d04-737e5e28e585" Panel.Bounds="227,645,0*{5,2147483647},0*{5,2147483647}" />
                     </Add.Item>
                 </Add>
                 <Add Property="Panel.Children" Target="60864bc7-64aa-4b71-85b4-9b3a644ccf34">
                     <Add.Item>
-                        <Button Text="CONTINUE WITH GOOGLE" Foreground="#FF282828" FontSize="15" FontStyle="Normal" Id="dffbaa8d-3598-4092-9134-239e5e475306" Panel.Bounds="105,672,251{5,2147483647},37{5,2147483647}" />
+                        <Button Text="CONTINUE WITH GOOGLE" Foreground="#FF282828" FontSize="15" FontStyle="Normal" Id="dffbaa8d-3598-4092-9134-239e5e475306" Panel.Bounds="106,682,251{5,2147483647},37{5,2147483647}" />
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="60864bc7-64aa-4b71-85b4-9b3a644ccf34">
+                    <Add.Item>
+                        <Link Text=" or Sign up for free" Foreground="#FF0066CC" FontSize="13" FontStyle="Normal|Underline" Id="c9f920f6-04ee-4422-b5f9-c089dc837f7c" Panel.Bounds="209,476,0*{5,2147483647},0*{5,2147483647}">
+                            <Link.Click>
+                                <CommandNavigate Screen="/sign_up.screen" Created="12/29/2018 11:45:55" />
+                            </Link.Click>
+                        </Link>
+                    </Add.Item>
+                </Add>
+                <Add Property="Panel.Children" Target="60864bc7-64aa-4b71-85b4-9b3a644ccf34">
+                    <Add.Item>
+                        <Label Text="this email address is not available. choose a different &#xD;address" Foreground="#FFC40000" FontSize="15" FontStyle="Normal" Id="e7a63bc5-023a-401d-8274-af74b8d077dc" Panel.Bounds="42,550,5*{5,2147483647},5*{5,2147483647}" />
                     </Add.Item>
                 </Add>
                 <Set Property="Content.Width" Value="480" Target="6d3e865b-a0d1-4ee6-83b5-b26279389d67" />
