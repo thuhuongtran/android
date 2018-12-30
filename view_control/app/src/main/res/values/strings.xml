@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">view_control</string>
+    <string name="title_activity_grid_layout">GridLayoutActivity</string>
+</resources>
