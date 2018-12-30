@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="normal_margin">16dp</dimen>
-    <dimen name="edit_text_size">13sp</dimen>
-    <dimen name="floating_button">50dp</dimen>
-    <dimen name="padding_floating_button">13.5dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="text_edit_size">14sp</dimen>
+    <dimen name="label_text_content">13sp</dimen>
+    <dimen name="button_floating">50dp</dimen>
+    <dimen name="button_padding_floating">13.5dp</dimen>
+    <dimen name="line_edit_text">1dp</dimen>
+    <dimen name="spacing_neg">-2dp</dimen>
+    <dimen name="padding_text_horizontal">5dp</dimen>
+    <dimen name="label_header_text">21sp</dimen>
+    <dimen name="label_title_beside_image">16sp</dimen>
+    <dimen name="label_common_text" >13.7sp</dimen>
+    <dimen name="spacing_content_vertical">13dp</dimen>
+    <dimen name="padding_image_circle">2dp</dimen>
 </resources>

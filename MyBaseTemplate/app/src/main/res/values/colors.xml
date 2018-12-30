@@ -2,18 +2,20 @@
 <resources>
     <color name="colorPrimary">#5FAF4F</color>
     <color name="colorPrimaryDark">#378e27</color>
-    <color name="colorAccent">#e49c19</color>
+    <color name="colorAccent">#1eb400</color>
     <color name="colorButton">#52BD42</color>
     <color name="colorHeaderTitle">#488F3B</color>
-    <color name="colorLink">#64A0D0</color>
+    <color name="colorLink">#5c9acc</color>
     <color name="colorTextWhite">#FBFAF9</color>
     <color name="colorTextViewHeader">#333333</color>
     <color name="colorTextContent">#787878</color>
     <color name="colorIconMenu">#AFAEAC</color>
-    <color name="colorTextView">#858585</color>
+    <color name="colorLabelTextCommon">#858585</color>
     <color name="colorEditTextHint">#a3a3a3</color>
     <color name="colorEditText">#2F2F2F</color>
     <color name="colorIconInForm">#757575</color>
-    <color name="colorOnSelect">#52ef62</color>
+    <color name="colorOnSelect">#7ec184</color>
     <color name="colorBackgroundTint">#d9d8d8</color>
+    <color name="colorError">#d20b0b</color>
+    <color name="colorLogoOrange">#d7782b</color>
 </resources>

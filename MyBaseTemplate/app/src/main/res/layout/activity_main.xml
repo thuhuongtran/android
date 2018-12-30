@@ -7,22 +7,29 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        style="@style/LabelTextHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="trips" />
 
     <Button
-        android:text="Button"
-        android:layout_margin="16dp"
+        style="@style/Button"
         android:layout_width="87dp"
         android:layout_height="35dp"
-        style="@style/Button" />
+        android:layout_margin="16dp"
+        android:text="Button" />
 
     <EditText
         style="@style/EditText"
-        android:hint="Hint"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="Hint" />
+
     <ImageView
         style="@style/FloatingButton"
-        android:src="@drawable/ic_add"
-        android:layout_width="@dimen/floating_button"
-        android:layout_height="@dimen/floating_button" />
+        android:layout_width="@dimen/button_floating"
+        android:layout_height="@dimen/button_floating"
+        android:src="@drawable/ic_add" />
 </LinearLayout>

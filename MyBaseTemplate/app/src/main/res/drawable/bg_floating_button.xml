@@ -2,14 +2,14 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true">
         <shape android:shape="oval">
-            <size android:width="@dimen/floating_button" android:height="@dimen/floating_button" />
+            <size android:width="@dimen/button_floating" android:height="@dimen/button_floating" />
             <solid android:color="@color/colorOnSelect"></solid>
         </shape>
     </item>
     <item>
         <shape android:shape="oval">
-            <size android:width="@dimen/floating_button" android:height="@dimen/floating_button" />
-            <solid android:color="@color/colorButton"></solid>
+            <size android:width="@dimen/button_floating" android:height="@dimen/button_floating" />
+            <solid android:color="@color/colorPrimary"></solid>
         </shape>
     </item>
 </selector>
