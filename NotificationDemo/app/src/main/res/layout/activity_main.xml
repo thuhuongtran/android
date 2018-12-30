@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/btnAlarmService"
+        android:text="alarm service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification Action" />
+    <Button
+        android:id="@+id/btnOpenAppWithStack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open App with Stack" />
+
+    <Button
+        android:id="@+id/btnOpenApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open App from Notification" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPublic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Public" />
+
+        <Button
+            android:id="@+id/btnPrivate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Private" />
+
+        <Button
+            android:id="@+id/btnSecret"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Secret" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCounterNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Counter Notification" />
+
+    <Button
+        android:id="@+id/btnSimpleNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Notification" />
+
+</LinearLayout>
