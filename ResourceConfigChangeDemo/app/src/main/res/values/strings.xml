@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ResourceConfigChangeDemo</string>
+    <string name="password">111</string>
+    <string name="email">a@mail.com</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ResourceConfigChangeDemo</string>
+    <string name="password">địa chỉ</string>
+    <string name="email">mật khẩu</string>
+</resources>
