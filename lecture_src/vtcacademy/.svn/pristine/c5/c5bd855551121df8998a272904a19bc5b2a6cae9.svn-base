@@ -44,6 +44,7 @@ public class Travel implements Serializable {
     public long getStartDt() {
         return startDt;
     }
+
     public void setStartDt(long startDt) {
         this.startDt = startDt;
     }

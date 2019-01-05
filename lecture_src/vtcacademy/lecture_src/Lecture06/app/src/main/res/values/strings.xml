@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Travels</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_sort_default">Default</string>
+    <string name="action_sort_travel_asc">Travel title ascending</string>
+    <string name="action_sort_travel_desc">Travel title descending</string>
+    <string name="action_sort_start_asc">Start date ascending</string>
+    <string name="action_sort_start_desc">Start date descending</string>
+    <string name="title_activity_new_travel">New Travel</string>
+    <string name="title_activity_edit_travel">Edit Travel</string>
+    <string name="travel_et_hint_enter_title">Enter Travel Title</string>
+    <string name="travel_title_empty">Travel Title is empty!</string>
+    <string name="travel_et_hint_start_dt">Select start date</string>
+    <string name="travel_et_hint_end_dt">Select end date</string>
+    <string name="travel_et_hint_place">Select city</string>
+    <string name="travel_city_empty">City is empty!</string>
+    <string name="travel_startdt_empty">Start date is empty!</string>
+    <string name="travel_enddt_empty">End date is empty!</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_delete">Delete</string>
+    <string name="travel_del_title">Are you sure you want to delete?</string>
+    <string name="travel_del_msg">All data for this travel will be permanently deleted.</string>
+</resources>
